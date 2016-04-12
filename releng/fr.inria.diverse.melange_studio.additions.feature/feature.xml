@@ -2,7 +2,7 @@
 <feature
       id="fr.inria.diverse.melange_studio.additions.feature"
       label="Melange Studio Additional Features"
-      version="2.1.1.qualifier"
+      version="1.0.1.qualifier"
       provider-name="Inria">
 
    <description url="http://www.gemoc.org">

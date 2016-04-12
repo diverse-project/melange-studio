@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>fr.inria.diverse.melange_studio</groupId>
 		<artifactId>fr.inria.diverse.melange_studio.parent</artifactId>
-		<version>2.1.1-SNAPSHOT</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../..</relativePath>
 	</parent>
 

@@ -2,7 +2,7 @@
 <feature
       id="fr.inria.diverse.melange_studio.branding.feature"
       label="Melange Studio branding"
-      version="2.1.1.qualifier"
+      version="1.0.1.qualifier"
       provider-name="Inria"
       plugin="fr.inria.diverse.melange_studio.branding">
 
