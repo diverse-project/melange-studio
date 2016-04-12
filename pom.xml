@@ -85,11 +85,12 @@
             <layout>p2</layout>
             <url>http://download.eclipse.org/tools/gef/updates/milestones</url>
         </repository>
-        <!-- probaly to remove because already part of Mars --><repository>
+        <!-- probaly to remove because already part of Mars -->
+        <!-- <repository>
             <id>javafx</id>
             <layout>p2</layout>
             <url>http://download.eclipse.org/efxclipse/updates-released/2.1.0/site</url>
-        </repository>
+        </repository>-->
     
     	<!-- Repositories specific for the studio (typically refered by the additional feature) -->
     	<repository>
@@ -115,11 +116,11 @@
 <!--             <url>http://download.eclipse.org/modeling/tmf/xtext/updates/releases/</url> -->
 <!--         </repository> -->
         <!-- refinement from "xtext all releases" -->
-        <repository>
+       <!--  <repository>
             <id>xtext releases 2.8.4</id>
             <layout>p2</layout>
             <url>http://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.8.4/</url>
-        </repository>
+        </repository>-->
         
         <!-- *********** -->
         <repository>
