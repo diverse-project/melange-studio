@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.gemoc.modeldebugging.feature_2.1.0.qualifier.jar" id="org.gemoc.modeldebugging.feature" version="2.1.0.qualifier">
+      <category name="Melange Studio SLE"/>
+   </feature>
+   <feature url="features/fr.inria.diverse.melange.sdk_0.1.0.201603151003.jar" id="fr.inria.diverse.melange.sdk" version="0.1.0.201603151003">
+      <category name="Melange Studio SLE"/>
+   </feature>
+   <feature url="features/fr.inria.diverse.k3.feature_3.2.0.v20160309-0818.jar" id="fr.inria.diverse.k3.feature" version="3.2.0.v20160309-0818">
+      <category name="Melange Studio SLE"/>
+   </feature>
+   <feature url="features/fr.inria.diverse.commons.provisionner4eclipse.feature_1.0.0.201603070919.jar" id="fr.inria.diverse.commons.provisionner4eclipse.feature" version="1.0.0.201603070919">
+      <category name="Melange Studio additions"/>
+   </feature>
+   <feature url="features/org.eclipse.fx.ide.basic.feature_2.1.0.201508240705.jar" id="org.eclipse.fx.ide.basic.feature" version="2.1.0.201508240705">
+      <category name="Melange Studio additions"/>
+   </feature>
+   <feature url="features/org.eclipse.fx.ide.pde.feature_2.1.0.201508240705.jar" id="org.eclipse.fx.ide.pde.feature" version="2.1.0.201508240705">
+      <category name="Melange Studio additions"/>
+   </feature>
+   <feature url="features/org.eclipse.ajdt_2.2.4.e44x-20150610-1600.jar" id="org.eclipse.ajdt" version="2.2.4.e44x-20150610-1600">
+      <category name="Melange Studio additions"/>
+   </feature>
+   <category-def name="Melange Studio SLE" label="Melange Studio SLE"/>
+   <category-def name="Melange Studio additions" label="Melange Studio additions">
+      <description>
+         compopent that are distrubuted in the Melange Studio in order to create an eclipse package for SLE developers .
+      </description>
+   </category-def>
+</site>
