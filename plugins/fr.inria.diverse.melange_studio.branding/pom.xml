@@ -15,6 +15,11 @@
 	<artifactId>fr.inria.diverse.melange_studio.branding</artifactId>
 	<packaging>eclipse-plugin</packaging>
 
+	<properties>
+		<eclipse.version.name>Mars.2</eclipse.version.name>
+	</properties>
+
+
 	<build>
 		<resources>
 			<resource>
@@ -70,6 +75,7 @@
 	                        <canvas>
 	                        	<backgroundImageName>splash</backgroundImageName>
 	                            <draw>
+	                            	<!-- build version -->
 	                            	<drawText>
 			                            <text>${project.version}  ${buildNumber}</text>
 			                            <textColor>#000000</textColor>
@@ -77,6 +83,15 @@
 			                            <fontStyle>italic,bold</fontStyle>
 			                            <fontSize>12</fontSize>
 			                            <position>right-15,bottom-20</position>
+			                        </drawText>
+			                        <!-- Eclipse version -->
+	                            	<drawText>
+			                            <text>${eclipse.version.name}</text>
+			                            <textColor>#f7941e</textColor>
+			                            <fontName>SansSerif</fontName>
+			                            <fontStyle>italic,bold</fontStyle>
+			                            <fontSize>16</fontSize>
+			                            <position>right-15,bottom-105</position>
 			                        </drawText>
 	                            </draw>
 	                        </canvas>
