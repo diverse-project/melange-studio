@@ -59,17 +59,16 @@
             <url>http://download.eclipse.org/sirius/updates/nightly/2.0.x/luna</url>
         </repository> -->
         
-		<repository>
-            <id>gemoc-studio latest official</id>
-            <layout>p2</layout>
-            <url>http://gemoc.org/updatesite/studio/</url>
-        </repository>
-        <!-- <repository>
+<!-- 		<repository> -->
+<!--             <id>gemoc-studio latest official</id> -->
+<!--             <layout>p2</layout> -->
+<!--             <url>http://gemoc.org/updatesite/studio/</url> -->
+<!--         </repository> -->
+        <repository>
             <id>gemoc-studio latest nightly</id>
             <layout>p2</layout>
             <url>http://gemoc.org/updatesite/studio_nightly/</url>
-        </repository>
-        -->
+        </repository>        
         <!-- <repository>
             <id>umldesigner</id>
             <layout>p2</layout>
