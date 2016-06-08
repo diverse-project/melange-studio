@@ -53,6 +53,15 @@
             <layout>p2</layout>
             <url>http://melange-lang.org/updatesite/</url>
         </repository>
+        
+        <!-- Patch for Sirius -->
+        <!--  to be removed as soon as bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=495367 is fixed -->
+        <repository>
+            <id>Palette patch update site</id>
+            <layout>p2</layout>
+            <url>http://gemoc.org/pub/studio/patch_sirius_palette/</url>
+        </repository>
+        
        <!--  <repository>
             <id>Sirius</id>
             <layout>p2</layout>
